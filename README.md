@@ -17,7 +17,7 @@ Note that InfluxDB has not been used for data visualization purposes as the prof
 3. Publisher passes these messages to Broker
 4. Publisher and Subscriber identifies each other based on their topic interest.
 5. Broker gets info about which topics each subscriber has subscribed.
-6. For Broker approach, Broker then passes messages to the subscribers. Here a new label tag has been added to all messages: "From Broker: "
+6. For Broker approach, Broker then passes messages to the subscribers. Here a new label tag has been added to all messages at the end: "(from broker)"
 7. For Direct approach, Publishers then sends messages directly to the subscribers.
 
 For 3 and 7, note that the SUB socket for Broker has subscribed to all topics and hence when Publisher tries to disseminate messages based on topics, it will automatically send to the broker as well as to the subscribers.
