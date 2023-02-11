@@ -5,9 +5,11 @@ About CS6381 PA1 Milestone3 Youngjae Moon
 1. Dissemination strategy using the direct approach
 2. Publishers should be able to disseminate; subscribers receive based on topics
 3. Dissemination strategy using Broker
-4. Made Test.txt file for testing out sample cases on Mininet
+4. Made Test.txt file for testing out sample cases on Mininet (5 sample test cases)
 5. Made data_visualization.py to visualize data after testing out sample cases on Mininet
 6. Modified the structure of Broker - used SUB and PUB sockets that subscribed and publishes on all topics. Commented out my legacy code that uses XPUB and XSUB 
+
+Note that InfluxDB has not been used for data visualization purposes as the professor told us in the class on Feb 10 (yesterday) that InfluxDB is not required.
 
 ### Basic Descripton of the code
 1. Publisher, Subscriber, Broker registers on Discovery Service
