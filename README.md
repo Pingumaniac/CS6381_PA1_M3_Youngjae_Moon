@@ -8,6 +8,7 @@ About CS6381 PA1 Milestone3 Youngjae Moon
 4. Made Test.txt file for testing out sample cases on Mininet (5 sample test cases)
 5. Made data_visualization.py to visualize data after testing out sample cases on Mininet
 6. Modified the structure of Broker - used SUB and PUB sockets that subscribed and publishes on all topics. Commented out my legacy code that uses XPUB and XSUB 
+7. Removed handle_reply_forPubSub() function in Common.py and implemented handle_reply() function for BrokerMW, SubscriberMW, and PublisherMW back to fix errors.
 
 Note that InfluxDB has not been used for data visualization purposes as the professor told us in the class on Feb 10 (yesterday) that InfluxDB is not required.
 
