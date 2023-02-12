@@ -1,7 +1,7 @@
 # CS6381_PA1_M3_Youngjae_Moon
 About CS6381 PA1 Milestone3 Youngjae Moon
 
-### What I have done for Milestone 3
+## What I have done for Milestone 3
 1. Dissemination strategy using the direct approach
 2. Publishers should be able to disseminate; subscribers receive based on topics
 3. Dissemination strategy using Broker
@@ -14,7 +14,7 @@ Note that InfluxDB has not been used for data visualization purposes as the prof
 
 All debugging have been done for testing on Terminal.
 
-### Basic Descripton of the code
+## Basic Descripton of the code
 1. Publisher, Subscriber, Broker registers on Discovery Service
 2. Publisher generates all sample messages
 3. Publisher passes these messages to Broker
@@ -25,7 +25,7 @@ All debugging have been done for testing on Terminal.
 
 For 3 and 7, note that the SUB socket for Broker has subscribed to all topics and hence when Publisher tries to disseminate messages based on topics, it will automatically send to the broker as well as to the subscribers.
 
-### How to run the code
+## How to run the code
 1. Open Ubuntu 22.04
 2. Download all the codes on my repository
 3. Open Terminal and move to the corresponding directory
@@ -34,3 +34,7 @@ For 3 and 7, note that the SUB socket for Broker has subscribed to all topics an
 6. Open Anaconda Jupyter Notebook.
 7. Open data_visualization.ipynb and run the code.
 6. Sample graphs/tables would have then been generated.
+
+## How to test the code on Mininet
+1. For test1 & test2 & test4, sudo --mn -topo=single,10
+2. For test3 & test 5, sudo --mn -topo=single,18 
