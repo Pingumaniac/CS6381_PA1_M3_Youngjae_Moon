@@ -12,6 +12,8 @@ About CS6381 PA1 Milestone3 Youngjae Moon
 
 Note that InfluxDB has not been used for data visualization purposes as the professor told us in the class on Feb 10 (yesterday) that InfluxDB is not required.
 
+All debugging have been done for testing on Terminal.
+
 ### Basic Descripton of the code
 1. Publisher, Subscriber, Broker registers on Discovery Service
 2. Publisher generates all sample messages
@@ -28,5 +30,7 @@ For 3 and 7, note that the SUB socket for Broker has subscribed to all topics an
 2. Download all the codes on my repository
 3. Open Terminal and move to the corresponding directory
 4. Open Test.txt and copy and paste the codes written for each test case.
-5. Run data_visualization.py and run the code.
+5. Open Windows or Mac.
+6. Open Anaconda Jupyter Notebook.
+7. Open data_visualization.ipynb and run the code.
 6. Sample graphs/tables would have then been generated.
