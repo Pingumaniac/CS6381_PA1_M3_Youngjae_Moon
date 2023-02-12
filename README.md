@@ -38,4 +38,5 @@ For 3 and 7, note that the SUB socket for Broker has subscribed to all topics an
 ## How to test the code on Mininet
 1. For test1 & test2 & test4, sudo --mn -topo=single,10
 2. For test3 & test 5, sudo --mn -topo=single,18 
-3. Note that T*.sh files do not include .out and 2>&1
+3. After setting up Mininet type: source Test/[Test filename e.g. Test1.sh]
+4. Note that T*.sh files do not include .out and 2>&1
