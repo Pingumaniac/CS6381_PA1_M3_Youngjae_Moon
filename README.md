@@ -14,9 +14,12 @@ Note that InfluxDB has not been used for data visualization purposes as the prof
 
 All debugging have been done for testing on Terminal.
 
+Bascially, milestone 1 and milestone 2 have been fully done except testing on Mininet without any such issues.
+
 ## What is not working and have not done
 1. Dissemination strategy using the broker approach
 2. More subtle graphs/tables on data collected
+3. Still facing problems with testing on Mininet by running shell codes.
 
 ## Basic Descripton of the code
 1. Publisher, Subscriber, Broker registers on Discovery Service
