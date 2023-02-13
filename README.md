@@ -6,7 +6,7 @@ About CS6381 PA1 Milestone3 Youngjae Moon
 2. Publishers should be able to disseminate; subscribers receive based on topics
 3. Made Test*.sh and T*.sh files for testing out sample cases on Mininet (5 sample test cases, * stands for 1-5)
 4. Made data_visualization.py to visualize data after testing out sample cases on Mininet
-5. Modified the structure of Broker - used SUB and PUB sockets that subscribed and publishes on all topics. Commented out my legacy code that uses XPUB and XSUB 
+5. Modified the structure of Broker - used SUB and PUB sockets that subscribed and publishes on all topics, instead of XPUB and XSUB.
 6. Removed handle_reply_forPubSub() function in Common.py and implemented handle_reply() function for BrokerMW, SubscriberMW, and PublisherMW back to fix error that the discovery application is still holding on an event loop, and the other applications not sending and receivng messages.
 7. Added a poller (zmq.POLLIN) for the sub sockets in SubscriberMW.py and BrokerMW.py
 
