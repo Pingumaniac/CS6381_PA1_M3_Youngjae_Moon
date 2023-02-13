@@ -1,0 +1,19 @@
+#!/bin/sh
+h1 python3 DiscoveryAppln.py -r "10.0.0.1" -t 5000 -P 8 -S 8 &
+h2 python3 PublisherAppln.py -d "10.0.0.1:5000" -a "10.0.0.3" -T 4 -n pub1 &
+h3 python3 PublisherAppln.py -d "10.0.0.1:5000" -a "10.0.0.4" -T 4 -n pub2 &
+h4 python3 PublisherAppln.py -d "10.0.0.1:5000" -a "10.0.0.5" -T 4 -n pub3 &
+h5 python3 PublisherAppln.py -d "10.0.0.1:5000" -a "10.0.0.6" -T 4 -n pub4 &
+h6 python3 PublisherAppln.py -d "10.0.0.1:5000" -a "10.0.0.3" -T 4 -n pub5 &
+h7 python3 PublisherAppln.py -d "10.0.0.1:5000" -a "10.0.0.4" -T 4 -n pub6 &
+h8 python3 PublisherAppln.py -d "10.0.0.1:5000" -a "10.0.0.5" -T 4 -n pub7 &
+h9 python3 BrokerAppln.py -d "10.0.0.1:5000" -a "10.0.0.2" -n broker -p 5001 &
+h10 python3 PublisherAppln.py -d "10.0.0.1:5000" -a "10.0.0.6" -T 4 -n pub8 &
+h11 python3 SubscriberAppln.py -d "10.0.0.1:5000" -a "10.0.0.7" -T 4 -n sub1 &
+h12 python3 SubscriberAppln.py -d "10.0.0.1:5000" -a "10.0.0.8" -T 4 -n sub2 &
+h13 python3 SubscriberAppln.py -d "10.0.0.1:5000" -a "10.0.0.9" -T 4 -n sub3 &
+h14 python3 SubscriberAppln.py -d "10.0.0.1:5000" -a "10.0.0.10" -T 4 -n sub4 &
+h15 python3 SubscriberAppln.py -d "10.0.0.1:5000" -a "10.0.0.11" -T 4 -n sub5 &
+h16 python3 SubscriberAppln.py -d "10.0.0.1:5000" -a "10.0.0.12" -T 4 -n sub6 &
+h17 python3 SubscriberAppln.py -d "10.0.0.1:5000" -a "10.0.0.13" -T 4 -n sub7 &
+h18 python3 SubscriberAppln.py -d "10.0.0.1:5000" -a "10.0.0.14" -T 4 -n sub8 &

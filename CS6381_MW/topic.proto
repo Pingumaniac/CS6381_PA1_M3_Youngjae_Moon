@@ -1,0 +1,13 @@
+// Purpose:
+// Describe an initial schema for serializing topic names and their values. For assignment 1,
+// we are just using strings. But later assignments we will enhance it.
+
+// Let us use the Version 3 syntax
+syntax = "proto3";
+
+message Publication {
+    string topic = 1;
+    string content = 2;
+    string pub_id = 3;
+    float tstamp = 4;
+}
