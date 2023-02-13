@@ -17,9 +17,9 @@ All debugging have been done for testing on Terminal.
 Bascially, milestone 1 and milestone 2 have been fully done except testing on Mininet without any such issues.
 
 ## What is not working and have not done
-1. Dissemination strategy using the broker approach
+1. Dissemination strategy using the broker approach (seems almost complete though)
 2. More subtle graphs/tables on data collected
-3. Still facing problems with testing on Mininet by running shell codes.
+3. Still facing problems with testing on Mininet by running shell codes. (the for running shell codes that generate .out files does not work well.)
 
 ## Basic Descripton of the code
 1. Publisher, Subscriber, Broker registers on Discovery Service
