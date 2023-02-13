@@ -29,6 +29,7 @@ Bascially, milestone 1 and milestone 2 have been fully done except testing on Mi
 5. Broker's SUB socket subscribed to all topics.
 6. For Broker approach, Broker then passes messages to the subscribers. Here a new label tag has been added to all messages at the end: "(from broker)"
 7. For Direct approach, Publishers then sends messages directly to the subscribers.
+8. Appln files communicate with MW files through mw_obj and MW files communicate with Appln files via making up calls. Thus, MW files are used for communicating on the lower level.
 
 For 3 and 7, note that the SUB socket for Broker has subscribed to all topics and hence when Publisher tries to disseminate messages based on topics, it will automatically send to the broker as well as to the subscribers.
 
